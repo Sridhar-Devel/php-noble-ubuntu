@@ -1,5 +1,5 @@
 FROM ubuntu:noble
-LABEL Author="Raja Subramanian" Description="A comprehensive docker image to run Apache-2.4 PHP-8.3 applications like Wordpress, Laravel, etc"
+LABEL Description="A comprehensive docker image to run Apache-2.4 PHP-8.3 applications like Wordpress, Laravel, etc"
 
 # Stop dpkg-reconfigure tzdata from prompting for input
 ENV DEBIAN_FRONTEND=noninteractive
